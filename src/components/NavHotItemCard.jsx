@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Grid, Link } from '@material-ui/core';
+import NavItem from './NavItemCard/NavItem';
 
 import Box from './Box';
 import { getSkeletonList, trackEvent, formatWebpImageSrc } from '../services';
@@ -24,7 +25,7 @@ class NavHotItemCard extends PureComponent {
                     backgroundColor: '#fff',
                     borderRadius: 8,
                   }}
-                />
+                ></div>
               </Grid>
             ))}
           </Grid>
@@ -43,29 +44,22 @@ class NavHotItemCard extends PureComponent {
             .filter((item) => (item.tag_en || '').indexOf('Hot') > -1)
             .map((item, index) => (
               <Grid item xs={6} sm={4} md={3} key={`Hot-${index}`}>
-                <Link
-                  color='textPrimary'
-                  href={`${
-                    language === 'zh' ? item.url : item.url_en || item.url
-                  }?utm_resource=btcnav.org`}
-                  target='_blank'
-                  underline='none'
+                <Box
+                  display='flex'
+                  flexDirection='column'
+                  justifyContent='center'
+                  borderRadius={8}
+                  backgroundColor='#fff'
+                  className='hotCard'
                   onClick={() => {
-                    trackEvent(item.tag_en, item.name_en || item.name);
+                    window.href = `${
+                      language === 'zh' ? item.url : item.url_en || item.url
+                    }?utm_resource=btcnav.org`;
                   }}
                 >
-                  <Box
-                    display='flex'
-                    flexDirection='column'
-                    justifyContent='center'
-                    alignItems='center'
-                    borderRadius={8}
-                    backgroundColor='#fff'
-                    className='hotCard'
-                  >
-                    <img src={formatWebpImageSrc(item.image)} alt='' />
-                  </Box>
-                </Link>
+                  <NavItem key={index} item={item} language={language} />
+                  {/* <img src={formatWebpImageSrc(item.image)} alt='' /> */}
+                </Box>
               </Grid>
             ))}
         </Grid>

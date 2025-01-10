@@ -15,7 +15,7 @@ import NavBar from './NavBar';
 
 import Box from './Box';
 
-const Header = ({ language, onChangeLanguage, tagList }) => {
+const Header = ({ language, onChangeLanguage, tagList, menus }) => {
   const [visible, setVisible] = useState(false);
   // const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -73,7 +73,7 @@ const Header = ({ language, onChangeLanguage, tagList }) => {
   // web header
   const webHeader = () => {
     return (
-      <Box mb={3.75} backgroundColor='#fff' boxShadow='0 2px 8px #f0f1f2'>
+      <Box backgroundColor='#fff' boxShadow='0 2px 8px #f0f1f2'>
         <Container>
           <Box
             display='flex'
@@ -85,17 +85,20 @@ const Header = ({ language, onChangeLanguage, tagList }) => {
             <Box display='flex' flexDirection='row'>
               <a href='/' style={{ textDecoration: 'none' }}>
                 <Box position='relative'>
-                  <h1
+                  <h2
                     style={{
                       color: '#000',
+                      marginBlockStart: 0,
+                      marginBlockEnd: 0,
                     }}
                   >
                     BTCNav.org
-                  </h1>
+                  </h2>
                   <Box mt={0.5} fontSize={14} color='#999'>
                     {t('btcTitle')}
                   </Box>
-                  <Box
+
+                  {/* <Box
                     position='absolute'
                     bottom={-16}
                     left={0}
@@ -103,10 +106,11 @@ const Header = ({ language, onChangeLanguage, tagList }) => {
                     width='100%'
                     borderRadius={2}
                     backgroundColor='#FF7828'
-                  />
+                  /> */}
                 </Box>
               </a>
             </Box>
+            {menus}
             <Box>{renderLanguageBtn()}</Box>
           </Box>
         </Container>

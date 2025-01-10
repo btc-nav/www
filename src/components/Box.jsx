@@ -1,12 +1,4 @@
-const Box = ({
-  id,
-  className,
-  style,
-  children,
-  onClick,
-  ...props
-}) => {
-
+const Box = ({ id, className, style, children, onClick, ...props }) => {
   const spacingKeys = {
     m: 'margin',
     mt: 'marginTop',
@@ -23,45 +15,45 @@ const Box = ({
     pl: 'paddingLeft',
     px: ['pl', 'pr'],
     py: ['pt', 'pb'],
-  }
+  };
 
   const styleProps = [
-    "position",
-    "top",
-    "right",
-    "bottom",
-    "left",
-    "display",
-    "flex",
-    "flexWrap",
-    "flexDirection",
-    "justifyContent",
-    "alignItems",
+    'position',
+    'top',
+    'right',
+    'bottom',
+    'left',
+    'display',
+    'flex',
+    'flexWrap',
+    'flexDirection',
+    'justifyContent',
+    'alignItems',
 
-    "width",
-    "height",
-    "minHeight",
-    "fontWeight",
-    "fontSize",
-    "lineHeight",
-    "textAlign",
+    'width',
+    'height',
+    'minHeight',
+    'fontWeight',
+    'fontSize',
+    'lineHeight',
+    'textAlign',
 
-    "color",
-    "backgroundColor",
+    'color',
+    'backgroundColor',
 
-    "border",
-    "borderTop",
-    "borderRight",
-    "borderBottom",
-    "borderLeft",
-    "borderColor",
-    "borderRadius",
-    "boxShadow",
+    'border',
+    'borderTop',
+    'borderRight',
+    'borderBottom',
+    'borderLeft',
+    'borderColor',
+    'borderRadius',
+    'boxShadow',
 
-    "wordBreak",
-    "cursor",
-    "userSelect",
-    "zIndex",
+    'wordBreak',
+    'cursor',
+    'userSelect',
+    'zIndex',
   ];
 
   let spacingStyle = {};
@@ -71,14 +63,13 @@ const Box = ({
         if (/(x|y)/.test(prop)) {
           spacingKeys[prop].forEach((key) => {
             spacingStyle[spacingKeys[key]] = props[prop] * 8;
-          })
+          });
         } else {
           spacingStyle[spacingKeys[prop]] = props[prop] * 8;
         }
       }
     });
-  } catch (e) {
-  }
+  } catch (e) {}
 
   let commonStyle = {};
   try {
@@ -86,9 +77,8 @@ const Box = ({
       if (styleProps.indexOf(key) > -1) {
         commonStyle[key] = props[key];
       }
-    })
-  } catch (e) {
-  }
+    });
+  } catch (e) {}
 
   return (
     <div
@@ -99,11 +89,11 @@ const Box = ({
       }}
       onClick={onClick}
       id={id}
-      className={className}>
+      className={className}
+    >
       {children}
     </div>
-  )
-
-}
+  );
+};
 
 export default Box;

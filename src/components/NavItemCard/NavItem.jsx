@@ -12,6 +12,7 @@ const NavItem = ({
   item: {
     tag_en,
     logo,
+    image,
     name,
     name_en,
     desc,
@@ -62,7 +63,7 @@ const NavItem = ({
             <LazyLoad height={size} style={{ width: size }} once>
               <Avatar
                 alt={language === 'zh' ? name : name_en || name}
-                src={formatWebpImageSrc(logo)}
+                src={formatWebpImageSrc(logo.length > 0 ? logo : image)}
                 style={{
                   height: logoHeightAuto ? 'auto' : size,
                   width: logoWidthAuto ? 'auto' : size,

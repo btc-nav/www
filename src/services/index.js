@@ -6,13 +6,16 @@ export const getSkeletonList = (length = 8) => {
     list.push(i);
   }
   return list;
-}
+};
 
 export const getDefaultLanguage = () => {
+  const systemLanguage = navigator.language || navigator.userLanguage;
+  if (systemLanguage.startsWith('en')) return 'en';
+
   const lng = window.localStorage.getItem('i18nextLng');
   if (lng === 'en') return 'en';
   return 'zh';
-}
+};
 
 export const trackEvent = (tag, name) => {
   try {
@@ -20,7 +23,7 @@ export const trackEvent = (tag, name) => {
   } catch (e) {
     console.log(e);
   }
-}
+};
 
 export const formatWebpImageSrc = (src = '') => {
   return `${imgHost}${src}`;
@@ -28,4 +31,4 @@ export const formatWebpImageSrc = (src = '') => {
   // if (src.indexOf('http') > -1) return src;
   // if (/\S+\.svg$/.test(src)) return `${imgHost}${src}`;
   // return `${imgHost}${src}!webp`;
-}
+};
