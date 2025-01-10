@@ -1,0 +1,20 @@
+{
+  "zh": {
+    "subTitle": "比特币生态资源导航",
+    "more": "一起发现更多新产品",
+    "submit": "提　交",
+    "beginner": "入门",
+    "bitcoin": "比特币",
+    "lightning": "闪电网络",
+    "new-things": "新事物"
+  },
+  "en": {
+    "subTitle": "A Portal to Bitcoin Ecosystem",
+    "more": "Discover more new products",
+    "submit": "Submit",
+    "beginner": "Beginner",
+    "bitcoin": "Bitcoin",
+    "lightning": "Lightning",
+    "new-things": "New Things"
+  }
+}

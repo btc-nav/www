@@ -22,8 +22,13 @@ const NavItem = ({
     logoWidthAuto,
     logoHeightAuto,
   },
+  showDesc,
   language,
 }) => {
+  if (showDesc == undefined) {
+    showDesc = true;
+  }
+  console.log('showDesc', showDesc);
   const size = 30;
 
   const website = language === 'zh' ? url : url_en || url;
@@ -80,14 +85,16 @@ const NavItem = ({
           <Box>
             <Typography
               variant='body1'
-              className='cardItem_title'
+              className={showDesc ? 'cardItem_title' : 'cardItem_title2'}
               style={{ fontWeight: 500 }}
             >
               {language === 'zh' ? name : name_en || name}
             </Typography>
-            <Typography variant='caption' className='cardItem_desc'>
-              {renderDesc()}
-            </Typography>
+            {showDesc ? (
+              <Typography variant='caption' className='cardItem_desc'>
+                {renderDesc()}
+              </Typography>
+            ) : null}
           </Box>
         </Box>
       </Link>

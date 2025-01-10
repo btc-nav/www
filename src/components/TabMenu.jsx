@@ -8,7 +8,7 @@ function a11yProps(index) {
   };
 }
 
-const TabMenus = ({ selectedCategory, category, onChange }) => {
+const TabMenus = ({ selectedCategory, category, onChange, t }) => {
   return (
     <Tabs
       variant='fullWidth'
@@ -21,7 +21,7 @@ const TabMenus = ({ selectedCategory, category, onChange }) => {
     >
       {category.map((item, index) => (
         <Tab
-          label={item}
+          label={t(item)}
           {...a11yProps(index)}
           key={item}
           className='categoryTab'

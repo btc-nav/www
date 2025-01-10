@@ -58,6 +58,15 @@
   word-break: break-all;
   color: #333;
 }
+.cardItem_title2 {
+  display: -webkit-box;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #333;
+  overflow: hidden;
+  word-wrap: break-all;
+}
 
 .cardItem_desc {
   display: -webkit-box;
@@ -109,12 +118,14 @@
 .toggleBtn:hover > svg {
   color: #fff;
 }
-
+.categoryTab .MuiTab-wrapper {
+  text-transform: none;
+}
 .categoryTab:focus {
   outline: none;
 }
 .MuiTab-wrapper {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 600px) {

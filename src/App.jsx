@@ -18,8 +18,7 @@ import TabPanel from './components/TabPanel';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Box from './components/Box';
-
-// import { jsonHost } from './services/config';
+import translations from './i18n.json';
 import { get } from './services/fetch';
 import { getDefaultLanguage } from './services';
 
@@ -35,19 +34,6 @@ const theme = createTheme({
     },
   },
 });
-
-const translations = {
-  zh: {
-    subTitle: '比特币生态资源导航',
-    more: '一起发现更多新产品',
-    submit: '提　交',
-  },
-  en: {
-    subTitle: 'A Portal to Bitcoin Ecosystem',
-    more: 'Discover more new products',
-    submit: 'Submit',
-  },
-};
 
 class App extends React.Component {
   state = {
@@ -125,6 +111,7 @@ class App extends React.Component {
               <TabMenus
                 category={this.state.category}
                 selectedCategory={selectedCategory}
+                t={t}
                 onChange={(newValue) => {
                   this.setState({
                     selectedCategory: this.state.category[newValue],
@@ -140,6 +127,7 @@ class App extends React.Component {
         <Container>
           <Hidden mdUp>
             <TabMenus
+              t={t}
               category={this.state.category}
               selectedCategory={selectedCategory}
               onChange={(newValue) => {

@@ -57,7 +57,12 @@ class NavHotItemCard extends PureComponent {
                     }?utm_resource=btcnav.org`;
                   }}
                 >
-                  <NavItem key={index} item={item} language={language} />
+                  <NavItem
+                    key={index}
+                    item={item}
+                    language={language}
+                    showDesc={false}
+                  />
                   {/* <img src={formatWebpImageSrc(item.image)} alt='' /> */}
                 </Box>
               </Grid>
