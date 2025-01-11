@@ -24,6 +24,7 @@ const NavItem = ({
   },
   showDesc,
   language,
+  className: boxClassName,
 }) => {
   if (showDesc == undefined) {
     showDesc = true;
@@ -61,7 +62,7 @@ const NavItem = ({
         <Box
           display='flex'
           flexDirection='row'
-          className={classnames('cardItem', BoxStyles.cardItem)}
+          className={classnames('cardItem', BoxStyles.cardItem, boxClassName)}
           borderRadius={8}
         >
           <Box mr={1}>

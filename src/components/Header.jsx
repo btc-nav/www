@@ -121,7 +121,7 @@ const Header = ({ language, onChangeLanguage, tagList, menus }) => {
   // wap header
   const wapHeader = () => {
     return (
-      <Box mb={2} py={1.25} backgroundColor='#fff'>
+      <Box py={1.25} backgroundColor='#fff'>
         <Container>
           <Box
             display='flex'

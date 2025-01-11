@@ -4,6 +4,7 @@ import NavItem from './NavItemCard/NavItem';
 
 import Box from './Box';
 import { getSkeletonList, trackEvent, formatWebpImageSrc } from '../services';
+import BoxStyles from './Box.module.css';
 
 class NavHotItemCard extends PureComponent {
   render() {
@@ -12,9 +13,10 @@ class NavHotItemCard extends PureComponent {
     if (!(tagList || []).length || !(navList || []).length) {
       let skeletonList = getSkeletonList();
       return (
-        <div
+        <Box
           id={encodeURI((tagList[0] || {}).tag_en)}
-          style={{ marginBottom: 16 }}
+          className={BoxStyles.navItemCard}
+          style={{ marginTop: 16 }}
         >
           <Grid container spacing={2}>
             {skeletonList.map((key, index) => (
@@ -29,46 +31,47 @@ class NavHotItemCard extends PureComponent {
               </Grid>
             ))}
           </Grid>
-        </div>
+        </Box>
       );
     }
 
     // console.log('NavHotItemCard');
     return (
-      <div
+      <Box
         id={encodeURI((tagList[0] || {}).tag_en)}
-        style={{ marginBottom: 16 }}
+        style={{ marginTop: 16, marginBottom: 16 }}
       >
         <Grid container spacing={2}>
           {(navList || [])
             .filter((item) => (item.tag_en || '').indexOf('Hot') > -1)
             .map((item, index) => (
-              <Grid item xs={6} sm={4} md={3} key={`Hot-${index}`}>
-                <Box
-                  display='flex'
-                  flexDirection='column'
-                  justifyContent='center'
-                  borderRadius={8}
-                  backgroundColor='#fff'
-                  className='hotCard'
-                  onClick={() => {
-                    window.href = `${
-                      language === 'zh' ? item.url : item.url_en || item.url
-                    }?utm_resource=btcnav.org`;
-                  }}
-                >
-                  <NavItem
-                    key={index}
-                    item={item}
-                    language={language}
-                    showDesc={false}
-                  />
-                  {/* <img src={formatWebpImageSrc(item.image)} alt='' /> */}
-                </Box>
-              </Grid>
+              // <Grid item xs={6} sm={4} md={3} key={`Hot-${index}`}>
+              //   <Box
+              //     display='flex'
+              //     flexDirection='column'
+              //     justifyContent='center'
+              //     borderRadius={8}
+              //     backgroundColor='#fff'
+              //     className='hotCard'
+              //     onClick={() => {
+              //       window.href = `${
+              //         language === 'zh' ? item.url : item.url_en || item.url
+              //       }?utm_resource=btcnav.org`;
+              //     }}
+              //   >
+              <NavItem
+                key={index}
+                item={item}
+                language={language}
+                showDesc={false}
+                className='hotItem'
+              />
+              // {/* <img src={formatWebpImageSrc(item.image)} alt='' /> */}
+              //   </Box>
+              // </Grid>
             ))}
         </Grid>
-      </div>
+      </Box>
     );
   }
 }

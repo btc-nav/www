@@ -143,39 +143,37 @@ class App extends React.Component {
               index={index}
               key={category}
             >
-              <Container>
-                <Box display='flex' flexDirection='row'>
-                  <NavBar
+              <Box display='flex' flexDirection='row'>
+                <NavBar
+                  tagList={Array.from(tagMap[selectedCategory] ?? [])}
+                  language={language}
+                  key={`NavBar-${(tagMap[selectedCategory] || []).length}`}
+                  drawerVisible={drawerVisible}
+                  onClose={() => {
+                    this.setState({ drawerVisible: false });
+                  }}
+                />
+                <Box flex='1' />
+
+                <Box
+                  className='tagContent'
+                  key={(navMap[selectedCategory] || []).length}
+                >
+                  <NavHotItemCard
+                    navList={navMap[selectedCategory] || []}
                     tagList={Array.from(tagMap[selectedCategory] ?? [])}
                     language={language}
-                    key={`NavBar-${(tagMap[selectedCategory] || []).length}`}
-                    drawerVisible={drawerVisible}
-                    onClose={() => {
-                      this.setState({ drawerVisible: false });
-                    }}
                   />
-                  <Box flex='1' />
-
-                  <Box
-                    className='tagContent'
-                    key={(navMap[selectedCategory] || []).length}
-                  >
-                    <NavHotItemCard
-                      navList={navMap[selectedCategory] || []}
-                      tagList={Array.from(tagMap[selectedCategory] ?? [])}
-                      language={language}
-                    />
-                    <NavItemCard
-                      navList={navMap[selectedCategory] || []}
-                      tagList={Array.from(tagMap[selectedCategory] ?? [])}
-                      language={language}
-                    />
-                  </Box>
-                  <Hidden lgUp>
-                    <Box flex='1' />
-                  </Hidden>
+                  <NavItemCard
+                    navList={navMap[selectedCategory] || []}
+                    tagList={Array.from(tagMap[selectedCategory] ?? [])}
+                    language={language}
+                  />
                 </Box>
-              </Container>
+                <Hidden lgUp>
+                  <Box flex='1' />
+                </Hidden>
+              </Box>
             </TabPanel>
           ))}
         </Container>
