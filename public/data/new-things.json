@@ -8,7 +8,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": ""
+		"image": "/img-btc/hot/cashu.jpg"
 	},
 	{
 		"name": "Bolt12",
@@ -20,7 +20,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": ""
+		"image": "/img-btc/hot/bolt12.png"
 	},
 	{
 		"name": "Ark",
@@ -44,7 +44,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": ""
+		"image": "/img-btc/btc.png"
 	},
 	{
 		"name": "When Taproot?",
@@ -56,7 +56,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": ""
+		"image": "/img-btc/hot/Taproot.png"
 	},
 	{
 		"name": "LNP/BP",
@@ -68,7 +68,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": ""
+		"image": "/img-btc/hot/lnpbp.jpg"
 	},
 	{
 		"name": "Liquid Network",
@@ -80,7 +80,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": ""
+		"image": "/img-btc/hot/Liquid.png"
 	},
 	{
 		"name": "Discreet log contract",
@@ -92,7 +92,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": ""
+		"image": "/img-btc/hot/dlc.jpg"
 	},
 	{
 		"name": "Cashu",
