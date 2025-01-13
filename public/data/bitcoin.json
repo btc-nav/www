@@ -8,7 +8,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": "/img-btc/hot/bitcoin.png"
+		"image": "/img-btc/btc.png"
 	},
 	{
 		"name": "Bitcoin Optech",
@@ -20,7 +20,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": "/img-btc/hot/bitcoinoptech.png"
+		"image": "/img-btc/newsletters/Bitcoin%20Optech.jpg"
 	},
 	{
 		"name": "BitcoinTalk",
@@ -32,7 +32,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": "/img-btc/hot/bitcointalk.png"
+		"image": "/img-btc/Community/btctalk.png"
 	},
 	{
 		"name": "Reddit",
@@ -44,7 +44,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": "/img-btc/hot/redditbitcoin.png"
+		"image": "/img-btc/Community/reddit.png"
 	},
 	{
 		"name": "Bitcoin Magazine",
@@ -56,7 +56,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": "/img-btc/hot/Bitcoin-Magazine.png"
+		"image": "/img-btc/news/Bitcoin%20Magazine.jpg"
 	},
 	{
 		"name": "Mempool",
@@ -68,7 +68,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": "/img-btc/hot/mempool.png"
+		"image": "/img-btc/update/1/mempool.jpg"
 	},
 	{
 		"name": "Stacker News",
@@ -80,11 +80,11 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": "/img-btc/hot/stackernews.png"
+		"image": "/img-btc/Community/stackernews.png"
 	},
 	{
-		"name": "Satoshi Nakamoto Institute",
-		"name_en": "",
+		"name": "中本聪研究院",
+		"name_en": "Satoshi Nakamoto Institute",
 		"desc": "",
 		"desc_en": "",
 		"url": "https://nakamotoinstitute.org/",
@@ -92,7 +92,7 @@
 		"tag": "热门推荐",
 		"tag_en": "Hot",
 		"logo": "",
-		"image": "/img-btc/hot/satoshiinstitute.png"
+		"image": "/img-btc/news/sni.png"
 	},
 	{
 		"name": "比特币社区",
@@ -139,7 +139,7 @@
 		"url_en": "",
 		"tag": "社区",
 		"tag_en": "Community",
-		"logo": "/imgs/redditlogo.png",
+		"logo": "/img-btc/Community/reddit.png",
 		"image": ""
 	},
 	{
@@ -199,7 +199,7 @@
 		"url_en": "",
 		"tag": "社区",
 		"tag_en": "Community",
-		"logo": "",
+		"logo": "/img-btc/Community/stackernews.png",
 		"image": ""
 	},
 	{
@@ -395,6 +395,18 @@
 		"image": ""
 	},
 	{
+		"name": "Live wallet",
+		"name_en": "",
+		"desc": "",
+		"desc_en": "",
+		"url": "https://livewallet.space/",
+		"url_en": "",
+		"tag": "软件钱包",
+		"tag_en": "Software Wallet",
+		"logo": "",
+		"image": ""
+	},
+	{
 		"name": "Trezor",
 		"name_en": "",
 		"desc": "",
@@ -539,198 +551,6 @@
 		"image": ""
 	},
 	{
-		"name": "Breez",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://breez.technology/",
-		"url_en": "",
-		"tag": "闪电钱包",
-		"tag_en": "LN Wallet",
-		"logo": "/img-btc/wallet/breez.jpg",
-		"image": ""
-	},
-	{
-		"name": "Phoenix",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://phoenix.acinq.co/",
-		"url_en": "",
-		"tag": "闪电钱包",
-		"tag_en": "LN Wallet",
-		"logo": "/img-btc/wallet/phoenix.jpg",
-		"image": ""
-	},
-	{
-		"name": "Wallet of Satoshi",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://www.walletofsatoshi.com/",
-		"url_en": "",
-		"tag": "闪电钱包",
-		"tag_en": "LN Wallet",
-		"logo": "/img-btc/lightning/Wallet%20of%20Satoshi.jpg",
-		"image": ""
-	},
-	{
-		"name": "LifPay",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://lifpay.me/",
-		"url_en": "",
-		"tag": "闪电钱包",
-		"tag_en": "LN Wallet",
-		"logo": "/img-btc/wallet/lifpay.jpg",
-		"image": ""
-	},
-	{
-		"name": "Zeus",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://zeusln.com/",
-		"url_en": "",
-		"tag": "闪电钱包",
-		"tag_en": "LN Wallet",
-		"logo": "/img-btc/wallet/zeus.jpg",
-		"image": ""
-	},
-	{
-		"name": "Alby",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://getalby.com/",
-		"url_en": "",
-		"tag": "闪电钱包",
-		"tag_en": "LN Wallet",
-		"logo": "/img-btc/wallet/alby.jpg",
-		"image": ""
-	},
-	{
-		"name": "LND",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://github.com/lightningnetwork/lnd",
-		"url_en": "",
-		"tag": "闪电网络客户端",
-		"tag_en": "LN Node",
-		"logo": "/img-btc/wallet/LND.png",
-		"image": ""
-	},
-	{
-		"name": "C-lightning",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://github.com/ElementsProject/lightning",
-		"url_en": "",
-		"tag": "闪电网络客户端",
-		"tag_en": "LN Node",
-		"logo": "/img-btc/wallet/c-lightning.jpg",
-		"image": ""
-	},
-	{
-		"name": "Eclair",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://github.com/ACINQ/eclair",
-		"url_en": "",
-		"tag": "闪电网络客户端",
-		"tag_en": "LN Node",
-		"logo": "/img-btc/lightning/Eclair.jpg",
-		"image": ""
-	},
-	{
-		"name": "eNuts",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://www.enuts.cash/",
-		"url_en": "",
-		"tag": "Ecash 钱包",
-		"tag_en": "Ecash Wallet",
-		"logo": "/img-btc/wallet/enut.png",
-		"image": ""
-	},
-	{
-		"name": "Cashu",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://wallet.cashu.me/",
-		"url_en": "",
-		"tag": "Ecash 钱包",
-		"tag_en": "Ecash Wallet",
-		"logo": "/img-btc/wallet/eCash%20logo.png",
-		"image": ""
-	},
-	{
-		"name": "Boardwalk Cash",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://boardwalkcash.com/",
-		"url_en": "",
-		"tag": "Ecash 钱包",
-		"tag_en": "Ecash Wallet",
-		"logo": "/img-btc/wallet/Ecash%20Boardwalk.png",
-		"image": ""
-	},
-	{
-		"name": "Minibits",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://www.minibits.cash/",
-		"url_en": "",
-		"tag": "Ecash 钱包",
-		"tag_en": "Ecash Wallet",
-		"logo": "/img-btc/wallet/minibits.jpg",
-		"image": ""
-	},
-	{
-		"name": "Nutstash",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://www.nutstash.app/",
-		"url_en": "",
-		"tag": "Ecash 钱包",
-		"tag_en": "Ecash Wallet",
-		"logo": "/img-btc/wallet/Nutstash%20Clean.png",
-		"image": ""
-	},
-	{
-		"name": "Voltz",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://www.lnvoltz.xyz/",
-		"url_en": "",
-		"tag": "Ecash 钱包",
-		"tag_en": "Ecash Wallet",
-		"logo": "/img-btc/wallet/Ecash%20Voltz.png",
-		"image": ""
-	},
-	{
-		"name": "Bitcoin Mints",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://bitcoinmints.com/",
-		"url_en": "",
-		"tag": "Ecash 钱包",
-		"tag_en": "Ecash Wallet",
-		"logo": "/img-btc/wallet/Ecash%20Mint.png",
-		"image": ""
-	},
-	{
 		"name": "Mempool.space",
 		"name_en": "",
 		"desc": "",
@@ -738,7 +558,7 @@
 		"url": "https://mempool.space/",
 		"url_en": "",
 		"tag": "浏览器 & 交易池",
-		"tag_en": "Explorer & Mempool",
+		"tag_en": "Transaction",
 		"logo": "/img-btc/update/1/mempool.jpg",
 		"image": ""
 	},
@@ -750,7 +570,7 @@
 		"url": "https://www.blockchain.com/explorer",
 		"url_en": "",
 		"tag": "浏览器 & 交易池",
-		"tag_en": "Explorer & Mempool",
+		"tag_en": "Transaction",
 		"logo": "/img-btc/update/1/blockchaincom.png",
 		"image": ""
 	},
@@ -762,7 +582,7 @@
 		"url": "https://bitaps.com/",
 		"url_en": "",
 		"tag": "浏览器 & 交易池",
-		"tag_en": "Explorer & Mempool",
+		"tag_en": "Transaction",
 		"logo": "/img-btc/update/1/bitaps.png",
 		"image": ""
 	},
@@ -774,7 +594,7 @@
 		"url": "https://bits.monospace.live/",
 		"url_en": "",
 		"tag": "浏览器 & 交易池",
-		"tag_en": "Explorer & Mempool",
+		"tag_en": "Transaction",
 		"logo": "/img-btc/update/1/bitfeed.png",
 		"image": ""
 	},
@@ -786,7 +606,7 @@
 		"url": "https://bitcoinexplorer.org/",
 		"url_en": "",
 		"tag": "浏览器 & 交易池",
-		"tag_en": "Explorer & Mempool",
+		"tag_en": "Transaction",
 		"logo": "/img-btc/update/1/bitcoinexplorer.jpg",
 		"image": ""
 	},
@@ -798,7 +618,7 @@
 		"url": "https://blockstream.info/",
 		"url_en": "",
 		"tag": "浏览器 & 交易池",
-		"tag_en": "Explorer & Mempool",
+		"tag_en": "Transaction",
 		"logo": "/img-btc/update/1/blockstream.jpg",
 		"image": ""
 	},
@@ -810,7 +630,7 @@
 		"url": "https://mempool.observer/",
 		"url_en": "",
 		"tag": "浏览器 & 交易池",
-		"tag_en": "Explorer & Mempool",
+		"tag_en": "Transaction",
 		"logo": "/img-btc/update/1/mempoolobserver.png",
 		"image": ""
 	},
@@ -822,7 +642,7 @@
 		"url": "https://transactionfee.info/",
 		"url_en": "",
 		"tag": "浏览器 & 交易池",
-		"tag_en": "Explorer & Mempool",
+		"tag_en": "Transaction",
 		"logo": "/img-btc/update/1/txfeeinfo.png",
 		"image": ""
 	},
@@ -834,7 +654,19 @@
 		"url": "https://utxo-stats.com/",
 		"url_en": "",
 		"tag": "浏览器 & 交易池",
-		"tag_en": "Explorer & Mempool",
+		"tag_en": "Transaction",
+		"logo": "",
+		"image": ""
+	},
+	{
+		"name": "BitAccelerate",
+		"name_en": "",
+		"desc": "",
+		"desc_en": "",
+		"url": "https://bitaccelerate.com/",
+		"url_en": "",
+		"tag": "浏览器 & 交易池",
+		"tag_en": "Transaction",
 		"logo": "",
 		"image": ""
 	},
@@ -1367,6 +1199,18 @@
 		"image": ""
 	},
 	{
+		"name": "BitcoinProjects",
+		"name_en": "",
+		"desc": "",
+		"desc_en": "",
+		"url": "https://bitcoinprojects.net/",
+		"url_en": "",
+		"tag": "资源",
+		"tag_en": "Resource",
+		"logo": "",
+		"image": ""
+	},
+	{
 		"name": "精通比特币",
 		"name_en": "Mastering Bitcoin",
 		"desc": "",
@@ -1492,6 +1336,30 @@
 		"desc": "",
 		"desc_en": "",
 		"url": "https://aantonop.com/books/",
+		"url_en": "",
+		"tag": "图书",
+		"tag_en": "Book",
+		"logo": "",
+		"image": ""
+	},
+	{
+		"name": "The Genesis Book",
+		"name_en": "",
+		"desc": "",
+		"desc_en": "",
+		"url": "https://thegenesisbook.com/",
+		"url_en": "",
+		"tag": "图书",
+		"tag_en": "Book",
+		"logo": "",
+		"image": ""
+	},
+	{
+		"name": "The Blocksize War",
+		"name_en": "",
+		"desc": "",
+		"desc_en": "",
+		"url": "https://www.amazon.com/Blocksize-War-controls-Bitcoins-protocol/dp/B08YQMC2WM",
 		"url_en": "",
 		"tag": "图书",
 		"tag_en": "Book",
@@ -2063,7 +1931,7 @@
 		"image": ""
 	},
 	{
-		"name": "Slient Payment",
+		"name": "Silent Payment",
 		"name_en": "",
 		"desc": "",
 		"desc_en": "",
@@ -2231,6 +2099,18 @@
 		"image": ""
 	},
 	{
+		"name": "Bitcoin Core Onboarding",
+		"name_en": "",
+		"desc": "",
+		"desc_en": "",
+		"url": "https://bitcoincore.academy/",
+		"url_en": "",
+		"tag": "开发",
+		"tag_en": "Development",
+		"logo": "",
+		"image": ""
+	},
+	{
 		"name": "Bitcoin Core PR Review Club",
 		"name_en": "",
 		"desc": "",
@@ -2383,7 +2263,7 @@
 		"url_en": "",
 		"tag": "SDK",
 		"tag_en": "SDK",
-		"logo": "/img-btc/developer/FDK.png",
+		"logo": "/img-btc/developer/fdk.png",
 		"image": ""
 	},
 	{
@@ -2408,6 +2288,18 @@
 		"tag": "SDK",
 		"tag_en": "SDK",
 		"logo": "/img-btc/developer/github.png",
+		"image": ""
+	},
+	{
+		"name": "Breez SDK",
+		"name_en": "",
+		"desc": "",
+		"desc_en": "",
+		"url": "https://breez.technology/sdk/",
+		"url_en": "",
+		"tag": "SDK",
+		"tag_en": "SDK",
+		"logo": "/img-btc/wallet/breez.jpg",
 		"image": ""
 	},
 	{
@@ -2747,18 +2639,6 @@
 		"image": ""
 	},
 	{
-		"name": "Coin360",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://coin360.com/",
-		"url_en": "",
-		"tag": "数据 & 图表",
-		"tag_en": "Data & Chart",
-		"logo": "/img-btc/Statistics/Coin360.png",
-		"image": ""
-	},
-	{
 		"name": "Stratum",
 		"name_en": "",
 		"desc": "",
@@ -2836,6 +2716,18 @@
 		"desc": "",
 		"desc_en": "",
 		"url": "https://www.bitcoin-quotes.com/",
+		"url_en": "",
+		"tag": "其它",
+		"tag_en": "Others",
+		"logo": "/img-btc/btc.png",
+		"image": ""
+	},
+	{
+		"name": "Bitcoin History",
+		"name_en": "",
+		"desc": "",
+		"desc_en": "",
+		"url": "https://trustmachines.co/bitcoin-history/",
 		"url_en": "",
 		"tag": "其它",
 		"tag_en": "Others",
