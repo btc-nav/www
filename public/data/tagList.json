@@ -1,146 +1,267 @@
 [
-  {
-    "tag": "热门推荐",
-    "tag_en": "Hot",
-    "category": "beginner"
-  },
-  {
-    "tag": "热门推荐",
-    "tag_en": "Hot",
-    "category": "new-things"
-  },
-  {
-    "tag": "热门推荐",
-    "tag_en": "Hot",
-    "category": "lightning"
-  },
-  {
-    "tag": "热门推荐",
-    "tag_en": "Hot",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "社区",
-    "tag_en": "Community",
-    "category": "lightning"
-  },
-  {
-    "tag": "软件钱包",
-    "tag_en": "Software Wallet",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "硬件签名器",
-    "tag_en": "Hardware Signer",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "闪电钱包",
-    "tag_en": "LN Wallet",
-    "category": "beginner"
-  },
-  {
-    "tag": "Ecash 钱包",
-    "tag_en": "Ecash Wallet",
-    "category": "beginner"
-  },
-  {
-    "tag": "浏览器 & 交易池",
-    "tag_en": "Explorer & Mempool",
-    "category": "beginner"
-  },
-  {
-    "tag": "客户端",
-    "tag_en": "Client",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "节点",
-    "tag_en": "Node",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "闪电网络客户端",
-    "tag_en": "LN Node",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "学习",
-    "tag_en": "Learn",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "研究",
-    "tag_en": "Research",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "资源",
-    "tag_en": "Resource",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "图书",
-    "tag_en": "Book",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "资讯",
-    "tag_en": "News",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "博客",
-    "tag_en": "Blog",
-    "category": "lightning"
-  },
-  {
-    "tag": "播客",
-    "tag_en": "Podcast",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "买卖/使用",
-    "tag_en": "Merchant",
-    "category": "new-things"
-  },
-  {
-    "tag": "隐私",
-    "tag_en": "Privacy",
-    "category": "new-things"
-  },
-  {
-    "tag": "开发",
-    "tag_en": "Development",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "SDK",
-    "tag_en": "SDK",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "规范",
-    "tag_en": "Specification",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "工具",
-    "tag_en": "Tool",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "数据 & 图表",
-    "tag_en": "Data & Chart",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "挖矿",
-    "tag_en": "Mining",
-    "category": "bitcoin"
-  },
-  {
-    "tag": "其它",
-    "tag_en": "new-things"
-  }
+	{
+		"tag": "热门推荐",
+		"tag_en": "Hot",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "社区",
+		"tag_en": "Community",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "软件钱包",
+		"tag_en": "Software Wallet",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "硬件签名器",
+		"tag_en": "Hardware Signer",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "工具",
+		"tag_en": "Tool",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "客户端",
+		"tag_en": "Client",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "节点",
+		"tag_en": "Node",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "浏览器 & 交易池",
+		"tag_en": "Transaction",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "学习",
+		"tag_en": "Learn",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "研究",
+		"tag_en": "Research",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "资源",
+		"tag_en": "Resource",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "图书",
+		"tag_en": "Book",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "资讯",
+		"tag_en": "News",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "博客",
+		"tag_en": "Blog",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "播客",
+		"tag_en": "Podcast",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "买卖/使用",
+		"tag_en": "Merchant",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "隐私",
+		"tag_en": "Privacy",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "开发",
+		"tag_en": "Development",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "SDK",
+		"tag_en": "SDK",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "规范",
+		"tag_en": "Specification",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "数据 & 图表",
+		"tag_en": "Data & Chart",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "挖矿",
+		"tag_en": "Mining",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "其它",
+		"tag_en": "Others",
+		"category": "bitcoin"
+	},
+	{
+		"tag": "热门推荐",
+		"tag_en": "Hot",
+		"category": "beginner"
+	},
+	{
+		"tag": "社区",
+		"tag_en": "Community",
+		"category": "beginner"
+	},
+	{
+		"tag": "软件钱包",
+		"tag_en": "Software",
+		"category": "beginner"
+	},
+	{
+		"tag": "硬件签名器",
+		"tag_en": "Hardware",
+		"category": "beginner"
+	},
+	{
+		"tag": "工具",
+		"tag_en": "Tool",
+		"category": "beginner"
+	},
+	{
+		"tag": "节点",
+		"tag_en": "Run your node",
+		"category": "beginner"
+	},
+	{
+		"tag": "浏览器",
+		"tag_en": "Explorer",
+		"category": "beginner"
+	},
+	{
+		"tag": "学习",
+		"tag_en": "Learn",
+		"category": "beginner"
+	},
+	{
+		"tag": "图书",
+		"tag_en": "Book",
+		"category": "beginner"
+	},
+	{
+		"tag": "资讯",
+		"tag_en": "News",
+		"category": "beginner"
+	},
+	{
+		"tag": "买卖/使用",
+		"tag_en": "Merchant",
+		"category": "beginner"
+	},
+	{
+		"tag": "热门推荐",
+		"tag_en": "Hot",
+		"category": "lightning"
+	},
+	{
+		"tag": "闪电钱包",
+		"tag_en": "LN Wallet",
+		"category": "lightning"
+	},
+	{
+		"tag": "闪电网络客户端",
+		"tag_en": "LN Node",
+		"category": "lightning"
+	},
+	{
+		"tag": "流动性",
+		"tag_en": "Liquidity",
+		"category": "lightning"
+	},
+	{
+		"tag": "流动性服务提供商",
+		"tag_en": "LSP",
+		"category": "lightning"
+	},
+	{
+		"tag": "节点管理",
+		"tag_en": "Node Management",
+		"category": "lightning"
+	},
+	{
+		"tag": "开发",
+		"tag_en": "Development",
+		"category": "lightning"
+	},
+	{
+		"tag": "研究",
+		"tag_en": "Research",
+		"category": "lightning"
+	},
+	{
+		"tag": "资源",
+		"tag_en": "Resource",
+		"category": "lightning"
+	},
+	{
+		"tag": "热门推荐",
+		"tag_en": "Hot",
+		"category": "new-things"
+	},
+	{
+		"tag": "Ecash",
+		"tag_en": "Ecash",
+		"category": "new-things"
+	},
+	{
+		"tag": "Ecash 钱包",
+		"tag_en": "Ecash Wallet",
+		"category": "new-things"
+	},
+	{
+		"tag": "客户端验证",
+		"tag_en": "Client-side Validation",
+		"category": "new-things"
+	},
+	{
+		"tag": "限制条款",
+		"tag_en": "Covenant",
+		"category": "new-things"
+	},
+	{
+		"tag": "Ark",
+		"tag_en": "Ark",
+		"category": "new-things"
+	},
+	{
+		"tag": "Liquid Network",
+		"tag_en": "Liquid Network",
+		"category": "new-things"
+	},
+	{
+		"tag": "Statechain",
+		"tag_en": "Statechain",
+		"category": "new-things"
+	},
+	{
+		"tag": "支付",
+		"tag_en": "payment",
+		"category": "new-things"
+	},
+	{
+		"tag": "产品",
+		"tag_en": "Product",
+		"category": "new-things"
+	}
 ]
