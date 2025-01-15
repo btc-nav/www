@@ -29,8 +29,7 @@ const NavItem = ({
   if (showDesc == undefined) {
     showDesc = true;
   }
-  console.log('showDesc', showDesc);
-  const size = 30;
+  const size = 45;
 
   const website = language === 'zh' ? url : url_en || url;
 
@@ -64,6 +63,10 @@ const NavItem = ({
           flexDirection='row'
           className={classnames('cardItem', BoxStyles.cardItem, boxClassName)}
           borderRadius={8}
+          style={{
+            paddingLeft: showDesc ? 0 : 8,
+            paddingRight: showDesc ? 0 : 8,
+          }}
         >
           <Box mr={1}>
             <LazyLoad height={size} style={{ width: size }} once>

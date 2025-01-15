@@ -177,7 +177,7 @@ class App extends React.Component {
             </TabPanel>
           ))}
         </Container>
-        <Footer language={language} footerVisible={footerVisible} t={t} />
+        {/* <Footer language={language} footerVisible={footerVisible} t={t} /> */}
       </ThemeProvider>
     );
   }
