@@ -10,7 +10,7 @@
 }
 
 .cardItem {
-  padding: 16px;
+  padding: 4px;
 }
 /* xs */
 @media screen and (max-width: 600px) {

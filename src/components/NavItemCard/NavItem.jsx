@@ -29,7 +29,7 @@ const NavItem = ({
   if (showDesc == undefined) {
     showDesc = true;
   }
-  const size = 45;
+  const size = 40;
 
   const website = language === 'zh' ? url : url_en || url;
 
