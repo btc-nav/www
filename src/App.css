@@ -135,18 +135,20 @@
 .hotItem {
   background-color: white;
   border-radius: 8px;
-  height: 92px;
+  height: 70px;
   display: flex;
   align-items: center;
 }
 
 @media screen and (min-width: 600px) {
   .skeletonHotCard,
+  .hotItem {
+    height: 60px;
+  }
   .hotCard {
-    height: 92px;
+    height: 60px;
   }
   .hotCard > img {
-    height: 92px;
     width: 195px;
   }
   .hotCard:hover {
