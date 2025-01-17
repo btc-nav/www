@@ -22,7 +22,7 @@ class NavBar extends PureComponent {
     const { tagList } = this.props;
     const length = (tagList || []).length;
     if (length) {
-      window.localStorage.setItem('tagListLength', length);
+      // window.localStorage.setItem('tagListLength', length);
       // nav bar height
       navHeight = length * 36;
       this.initActiveKey();
@@ -36,6 +36,7 @@ class NavBar extends PureComponent {
     let activeKey = hash
       ? hash.split('#')[1]
       : encodeURI((tagList[0] || {}).tag_en);
+    console.log('activeKey', activeKey);
     this.setState({ activeKey });
   };
 
@@ -64,6 +65,7 @@ class NavBar extends PureComponent {
     let linkList = [];
     tagList.forEach((item) => {
       let link = encodeURI(item.tag_en);
+
       let el = document.getElementById(link);
       if (el) {
         const top = this.getOffsetTop(el);
@@ -74,13 +76,13 @@ class NavBar extends PureComponent {
       }
     });
     if (linkList.length) {
-      for (let i = 1; i < linkList.length; i++) {
-        if (linkList[i].top > 0) {
-          return linkList[i - 1].link;
+      for (let i = 0; i < linkList.length; i++) {
+        if (linkList[i].top >= 0) {
+          return linkList[i].link;
         }
       }
     }
-    return '';
+    return 'Hot';
   };
 
   getOffsetTop = (element) => {
@@ -95,7 +97,7 @@ class NavBar extends PureComponent {
     const { tagList, language } = this.props;
     const { sticky, top, activeKey } = this.state;
     if (!(tagList || []).length) {
-      let length = +window.localStorage.getItem('tagListLength');
+      let length = 10;
       let skeletonList = getSkeletonList(length || 30);
       return (
         <Box
@@ -174,13 +176,13 @@ class NavBar extends PureComponent {
                 justifyContent='center'
                 p={2}
               >
-                <h1
+                <h3
                   style={{
                     color: '#000',
                   }}
                 >
                   BTCNav.org
-                </h1>
+                </h3>
                 {/* <img src={LogoImg} alt='btcnav' height={17} /> */}
               </Box>
               <Divider />
