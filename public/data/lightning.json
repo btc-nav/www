@@ -131,18 +131,6 @@
 		"image": ""
 	},
 	{
-		"name": "LifPay",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://lifpay.me/",
-		"url_en": "",
-		"tag": "闪电钱包",
-		"tag_en": "LN Wallet",
-		"logo": "/img-btc/wallet/lifpay.jpg",
-		"image": ""
-	},
-	{
 		"name": "Zeus",
 		"name_en": "",
 		"desc": "",
