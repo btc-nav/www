@@ -276,18 +276,6 @@
 		"image": ""
 	},
 	{
-		"name": "LifPay",
-		"name_en": "",
-		"desc": "闪电钱包",
-		"desc_en": "LN Wallet",
-		"url": "https://lifpay.me/",
-		"url_en": "",
-		"tag": "软件钱包",
-		"tag_en": "Software",
-		"logo": "/img-btc/wallet/lifpay.jpg",
-		"image": ""
-	},
-	{
 		"name": "Zeus",
 		"name_en": "",
 		"desc": "闪电钱包",
@@ -309,18 +297,6 @@
 		"tag": "软件钱包",
 		"tag_en": "Software",
 		"logo": "/img-btc/wallet/alby.jpg",
-		"image": ""
-	},
-	{
-		"name": "eNuts",
-		"name_en": "",
-		"desc": "Ecash 钱包",
-		"desc_en": "Ecash Wallet",
-		"url": "https://www.enuts.cash/",
-		"url_en": "",
-		"tag": "软件钱包",
-		"tag_en": "Software",
-		"logo": "/img-btc/wallet/enut.png",
 		"image": ""
 	},
 	{
