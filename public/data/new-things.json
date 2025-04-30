@@ -1,4 +1,5 @@
-[{
+[
+	{
 		"name": "Cashu",
 		"name_en": "",
 		"desc": "",
@@ -103,7 +104,7 @@
 		"url_en": "",
 		"tag": "Ecash",
 		"tag_en": "Ecash",
-		"logo": "",
+		"logo": "/img-btc/Ecash/cashu.png",
 		"image": ""
 	},
 	{
@@ -115,7 +116,7 @@
 		"url_en": "",
 		"tag": "Ecash",
 		"tag_en": "Ecash",
-		"logo": "",
+		"logo": "/img-btc/Ecash/fedi.png",
 		"image": ""
 	},
 	{
@@ -127,7 +128,7 @@
 		"url_en": "",
 		"tag": "Ecash",
 		"tag_en": "Ecash",
-		"logo": "",
+		"logo": "/img-btc/Ecash/fedimint.png",
 		"image": ""
 	},
 	{
@@ -151,7 +152,7 @@
 		"url_en": "",
 		"tag": "Ecash",
 		"tag_en": "Ecash",
-		"logo": "",
+		"logo": "/img-btc/Ecash/cashumints.png",
 		"image": ""
 	},
 	{
@@ -175,7 +176,7 @@
 		"url_en": "",
 		"tag": "Ecash",
 		"tag_en": "Ecash",
-		"logo": "",
+		"logo": "/img-btc/Ecash/ecash_ecosystem.png",
 		"image": ""
 	},
 	{
@@ -247,7 +248,7 @@
 		"url_en": "",
 		"tag": "Ecash 钱包",
 		"tag_en": "Ecash Wallet",
-		"logo": "",
+		"logo": "/img-btc/Ecash Wallet/harbor.png",
 		"image": ""
 	},
 	{
@@ -259,7 +260,7 @@
 		"url_en": "",
 		"tag": "限制条款",
 		"tag_en": "Covenant",
-		"logo": "",
+		"logo": "/img-btc/Covenant/covenant_wiki.png",
 		"image": ""
 	},
 	{
@@ -271,7 +272,7 @@
 		"url_en": "",
 		"tag": "限制条款",
 		"tag_en": "Covenant",
-		"logo": "",
+		"logo": "/img-btc/Covenant/bitcoin_covenants.png",
 		"image": ""
 	},
 	{
@@ -283,7 +284,7 @@
 		"url_en": "",
 		"tag": "限制条款",
 		"tag_en": "Covenant",
-		"logo": "",
+		"logo": "/img-btc/Covenant/covenants_support.png",
 		"image": ""
 	},
 	{
@@ -295,7 +296,7 @@
 		"url_en": "",
 		"tag": "限制条款",
 		"tag_en": "Covenant",
-		"logo": "",
+		"logo": "/img-btc/Covenant/lnhance.png",
 		"image": ""
 	},
 	{
@@ -319,7 +320,7 @@
 		"url_en": "",
 		"tag": "限制条款",
 		"tag_en": "Covenant",
-		"logo": "",
+		"logo": "/img-btc/Covenant/bip119.png",
 		"image": ""
 	},
 	{
@@ -331,7 +332,7 @@
 		"url_en": "",
 		"tag": "客户端验证",
 		"tag_en": "Client-side Validation",
-		"logo": "",
+		"logo": "/img-btc/Client-side Validation/lnpbp.png",
 		"image": ""
 	},
 	{
@@ -343,7 +344,7 @@
 		"url_en": "",
 		"tag": "客户端验证",
 		"tag_en": "Client-side Validation",
-		"logo": "",
+		"logo": "/img-btc/Client-side Validation/rgb.png",
 		"image": ""
 	},
 	{
@@ -355,7 +356,7 @@
 		"url_en": "",
 		"tag": "客户端验证",
 		"tag_en": "Client-side Validation",
-		"logo": "",
+		"logo": "/img-btc/Client-side Validation/taro_assest.png",
 		"image": ""
 	},
 	{
@@ -367,7 +368,7 @@
 		"url_en": "",
 		"tag": "客户端验证",
 		"tag_en": "Client-side Validation",
-		"logo": "",
+		"logo": "/img-btc/Client-side Validation/rgb.info.png",
 		"image": ""
 	},
 	{
@@ -379,7 +380,7 @@
 		"url_en": "",
 		"tag": "客户端验证",
 		"tag_en": "Client-side Validation",
-		"logo": "",
+		"logo": "/img-btc/Client-side Validation/mycitadel.png",
 		"image": ""
 	},
 	{
@@ -391,7 +392,7 @@
 		"url_en": "",
 		"tag": "客户端验证",
 		"tag_en": "Client-side Validation",
-		"logo": "",
+		"logo": "/img-btc/Client-side Validation/iris_wallet.png",
 		"image": ""
 	},
 	{
@@ -427,7 +428,7 @@
 		"url_en": "",
 		"tag": "Ark",
 		"tag_en": "Ark",
-		"logo": "",
+		"logo": "/img-btc/Ark/second.png",
 		"image": ""
 	},
 	{
@@ -439,7 +440,7 @@
 		"url_en": "",
 		"tag": "Ark",
 		"tag_en": "Ark",
-		"logo": "",
+		"logo": "/img-btc/Ark/ark_labs.png",
 		"image": ""
 	},
 	{
@@ -449,9 +450,9 @@
 		"desc_en": "",
 		"url": "https://blockstream.com/liquid/",
 		"url_en": "",
-		"tag": "Liquid",
-		"tag_en": "Liquid",
-		"logo": "",
+		"tag": "Liquid Network",
+		"tag_en": "Liquid Network",
+		"logo": "/img-btc/Liquid/liquid_network.png",
 		"image": ""
 	},
 	{
@@ -461,9 +462,9 @@
 		"desc_en": "",
 		"url": "https://liquid.net/",
 		"url_en": "",
-		"tag": "Liquid",
-		"tag_en": "Liquid",
-		"logo": "",
+		"tag": "Liquid Network",
+		"tag_en": "Liquid Network",
+		"logo": "/img-btc/Liquid/liquid_network.png",
 		"image": ""
 	},
 	{
@@ -473,9 +474,9 @@
 		"desc_en": "",
 		"url": "https://blockstream.info/liquid/",
 		"url_en": "",
-		"tag": "Liquid",
-		"tag_en": "Liquid",
-		"logo": "",
+		"tag": "Liquid Network",
+		"tag_en": "Liquid Network",
+		"logo": "/img-btc/Liquid/blockstream_explorer.png",
 		"image": ""
 	},
 	{
@@ -485,9 +486,9 @@
 		"desc_en": "",
 		"url": "https://liquid.network/",
 		"url_en": "",
-		"tag": "Liquid",
-		"tag_en": "Liquid",
-		"logo": "",
+		"tag": "Liquid Network",
+		"tag_en": "Liquid Network",
+		"logo": "/img-btc/Liquid/liquid_explorer.png",
 		"image": ""
 	},
 	{
@@ -497,9 +498,9 @@
 		"desc_en": "",
 		"url": "https://liquid.horse/",
 		"url_en": "",
-		"tag": "Liquid",
-		"tag_en": "Liquid",
-		"logo": "",
+		"tag": "Liquid Network",
+		"tag_en": "Liquid Network",
+		"logo": "/img-btc/Liquid/liquid_sidechain_statistics.png",
 		"image": ""
 	},
 	{
@@ -509,8 +510,8 @@
 		"desc_en": "",
 		"url": "https://liquidnetwork.wiki/",
 		"url_en": "",
-		"tag": "Liquid",
-		"tag_en": "Liquid",
+		"tag": "Liquid Network",
+		"tag_en": "Liquid Network",
 		"logo": "",
 		"image": ""
 	},
@@ -521,9 +522,9 @@
 		"desc_en": "",
 		"url": "https://github.com/Blockstream/lwk",
 		"url_en": "",
-		"tag": "Liquid",
-		"tag_en": "Liquid",
-		"logo": "",
+		"tag": "Liquid Network",
+		"tag_en": "Liquid Network",
+		"logo": "/img-btc/Liquid/liquid_wallet_kit.png",
 		"image": ""
 	},
 	{
@@ -533,9 +534,9 @@
 		"desc_en": "Liquid Wallet",
 		"url": "https://blockstream.com/green/",
 		"url_en": "",
-		"tag": "Liquid",
-		"tag_en": "Liquid",
-		"logo": "",
+		"tag": "Liquid Network",
+		"tag_en": "Liquid Network",
+		"logo": "/img-btc/Liquid/blockstream_green.png",
 		"image": ""
 	},
 	{
@@ -545,9 +546,9 @@
 		"desc_en": "Liquid Wallet",
 		"url": "https://github.com/vulpemventures/marina",
 		"url_en": "",
-		"tag": "Liquid",
-		"tag_en": "Liquid",
-		"logo": "",
+		"tag": "Liquid Network",
+		"tag_en": "Liquid Network",
+		"logo": "/img-btc/Liquid/marina.png",
 		"image": ""
 	},
 	{
@@ -557,9 +558,9 @@
 		"desc_en": "Liquid Wallet",
 		"url": "https://wallby.app/",
 		"url_en": "",
-		"tag": "Liquid",
-		"tag_en": "Liquid",
-		"logo": "",
+		"tag": "Liquid Network",
+		"tag_en": "Liquid Network",
+		"logo": "/img-btc/Liquid/wallby.png",
 		"image": ""
 	},
 	{
@@ -569,9 +570,9 @@
 		"desc_en": "",
 		"url": "https://sideswap.io/",
 		"url_en": "",
-		"tag": "Liquid",
-		"tag_en": "Liquid",
-		"logo": "",
+		"tag": "Liquid Network",
+		"tag_en": "Liquid Network",
+		"logo": "/img-btc/Liquid/sideswap.png",
 		"image": ""
 	},
 	{
@@ -581,9 +582,9 @@
 		"desc_en": "",
 		"url": "https://elementsproject.org/",
 		"url_en": "",
-		"tag": "Liquid",
-		"tag_en": "Liquid",
-		"logo": "",
+		"tag": "Liquid Network",
+		"tag_en": "Liquid Network",
+		"logo": "/img-btc/Liquid/elements.png",
 		"image": ""
 	},
 	{
@@ -607,7 +608,7 @@
 		"url_en": "",
 		"tag": "Statechain",
 		"tag_en": "Statechain",
-		"logo": "",
+		"logo": "/img-btc/Statechain/spark.png",
 		"image": ""
 	},
 	{
@@ -619,7 +620,7 @@
 		"url_en": "",
 		"tag": "支付",
 		"tag_en": "payment",
-		"logo": "",
+		"logo": "/img-btc/payment/bolt12.png",
 		"image": ""
 	},
 	{
@@ -631,7 +632,7 @@
 		"url_en": "",
 		"tag": "支付",
 		"tag_en": "payment",
-		"logo": "",
+		"logo": "/img-btc/payment/slient_payment.png",
 		"image": ""
 	},
 	{
@@ -643,7 +644,7 @@
 		"url_en": "",
 		"tag": "支付",
 		"tag_en": "payment",
-		"logo": "",
+		"logo": "/img-btc/payment/bip21.png",
 		"image": ""
 	},
 	{
@@ -655,7 +656,7 @@
 		"url_en": "",
 		"tag": "产品",
 		"tag_en": "Product",
-		"logo": "",
+		"logo": "/img-btc/Product/fountain.png",
 		"image": ""
 	},
 	{
@@ -667,7 +668,7 @@
 		"url_en": "",
 		"tag": "产品",
 		"tag_en": "Product",
-		"logo": "",
+		"logo": "/img-btc/Product/impervious.png",
 		"image": ""
 	},
 	{
@@ -679,7 +680,7 @@
 		"url_en": "",
 		"tag": "Taproot",
 		"tag_en": "Taproot",
-		"logo": "",
+		"logo": "/img-btc/Taproot/when_taproot.png",
 		"image": ""
 	}
 ]
