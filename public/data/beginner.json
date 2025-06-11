@@ -288,18 +288,6 @@
 		"image": ""
 	},
 	{
-		"name": "Alby",
-		"name_en": "",
-		"desc": "闪电钱包",
-		"desc_en": "LN Wallet",
-		"url": "https://getalby.com/",
-		"url_en": "",
-		"tag": "软件钱包",
-		"tag_en": "Software",
-		"logo": "/img-btc/wallet/alby.jpg",
-		"image": ""
-	},
-	{
 		"name": "Cashu",
 		"name_en": "",
 		"desc": "Ecash 钱包",
