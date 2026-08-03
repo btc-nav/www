@@ -17,14 +17,6 @@ export const getDefaultLanguage = () => {
   return 'zh';
 };
 
-export const trackEvent = (tag, name) => {
-  try {
-    window._hmt.push(['_trackEvent', tag, 'click', name]);
-  } catch (e) {
-    console.log(e);
-  }
-};
-
 export const formatWebpImageSrc = (src = '') => {
   return `${imgHost}${src}`;
   // if (!src) return '';

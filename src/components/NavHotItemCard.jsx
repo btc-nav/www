@@ -3,7 +3,7 @@ import { Grid, Link } from '@material-ui/core';
 import NavItem from './NavItemCard/NavItem';
 
 import Box from './Box';
-import { getSkeletonList, trackEvent, formatWebpImageSrc } from '../services';
+import { getSkeletonList, formatWebpImageSrc } from '../services';
 import BoxStyles from './Box.module.css';
 
 class NavHotItemCard extends PureComponent {

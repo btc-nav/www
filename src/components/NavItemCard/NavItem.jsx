@@ -6,11 +6,10 @@ import classnames from 'classnames';
 import Box from '../Box';
 import BoxStyles from '../Box.module.css';
 
-import { trackEvent, formatWebpImageSrc } from '../../services';
+import { formatWebpImageSrc } from '../../services';
 
 const NavItem = ({
   item: {
-    tag_en,
     logo,
     image,
     name,
@@ -54,9 +53,6 @@ const NavItem = ({
         href={`${website}?utm_resource=btcnav.org`}
         target='_blank'
         underline='none'
-        onClick={() => {
-          trackEvent(tag_en, name_en || name);
-        }}
       >
         <Box
           display='flex'
