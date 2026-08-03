@@ -63,6 +63,21 @@ Notes:
 - Empty `*_en` fields fall back to the primary (`name`, `url`, etc.) on the English UI.
 - If `logo` is non-empty, it takes priority over `image`.
 
+## Removing resources
+
+1. Delete the full object from the matching category JSON (`beginner.json` / `bitcoin.json` / `lightning.json` / `new-things.json`).
+2. If the entry has a dedicated logo under `public/static/img-btc/` and **no other entry references that path**, remove the image file too.
+3. **Usually do not** remove tags from `tagList.json`. Keep unused tags unless you are sure the tag is permanently retired; this avoids sidebar churn.
+
+## Conventions (for humans and agents)
+
+- **Scope**: Content changes should normally touch only `public/data/*.json` and `public/static/img-btc/`. Do not edit `src/` or build config unless the task explicitly asks for it.
+- **Placement**: Keep entries with the same `tag` together. Insert new items near existing ones for that tag (typically at the end of that tag group); do not scramble other groups.
+- **Image folders**: Prefer the same subdirectory used by similar existing entries (e.g. `Community/`, `hot/`, `Software Wallet/`). Avoid inventing inconsistent folder names. Encode spaces in paths the same way existing entries do (e.g. `Bitcoin%20Optech.jpg`).
+- **Fields & formatting**: Keep the existing field order and **tab indentation**. Empty `*_en` strings are fine (English UI falls back to the primary fields). Non-empty `logo` takes priority over `image`.
+- **New tags**: Add `tag` / `tag_en` / `category` to `tagList.json` first. `category` must be one of `beginner` | `bitcoin` | `lightning` | `new-things`, then add the entry in the matching JSON file.
+- **Done when**: JSON parses cleanly; if practical, run `yarn build` once to confirm the build still passes.
+
 ## Project layout
 
 | Path | Purpose |

@@ -63,6 +63,21 @@ yarn preview  # 预览生产构建
 - `*_en` 为空时，英文界面会回退到主字段（`name`、`url` 等）。
 - `logo` 非空时优先于 `image`。
 
+## 删除资源
+
+1. 在对应分类的 JSON（`beginner.json` / `bitcoin.json` / `lightning.json` / `new-things.json`）中删除整条对象。
+2. 若该条目有独立 logo 文件，且**没有其他条目引用同一路径**，可一并删除 `public/static/img-btc/` 下对应图片。
+3. **一般不要**从 `tagList.json` 删除标签：即使某标签暂时没有条目，保留标签可避免侧边导航结构抖动；只有确认该标签永久弃用时再删。
+
+## 约定（贡献 / Agent 都适用）
+
+- **改动范围**：内容类变更默认只动 `public/data/*.json` 与 `public/static/img-btc/`；不要顺手改 `src/` 或构建配置，除非任务明确要求。
+- **插入位置**：同一 `tag` 的条目应放在一起；新条目插在该标签已有条目附近（通常追加到该标签组末尾），不要打乱其他标签分组。
+- **图片目录**：优先沿用同类目已有条目的子目录（如 `Community/`、`hot/`、`Software Wallet/`），不要新建风格不一致的文件夹名；路径含空格时与现有条目一样做 URL 编码（例如 `Bitcoin%20Optech.jpg`）。
+- **字段与格式**：保持现有字段顺序与 **tab 缩进**；空的 `*_en` 可留空字符串（英文界面会回退到主字段）；`logo` 非空时优先于 `image`。
+- **新标签**：先在 `tagList.json` 增加 `tag` / `tag_en` / `category`，且 `category` 必须对应四个分类之一（`beginner` | `bitcoin` | `lightning` | `new-things`），再在对应 JSON 里写条目。
+- **完成标准**：改完后 JSON 必须可解析；有条件时跑一次 `yarn build` 确认构建通过。
+
 ## 目录结构
 
 | 路径 | 用途 |
