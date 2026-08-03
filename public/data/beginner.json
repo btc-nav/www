@@ -408,6 +408,18 @@
 		"image": ""
 	},
 	{
+		"name": "Krux",
+		"name_en": "",
+		"desc": "",
+		"desc_en": "",
+		"url": "https://selfcustody.github.io/krux/",
+		"url_en": "",
+		"tag": "硬件签名器",
+		"tag_en": "Hardware",
+		"logo": "/img-btc/wallet/krux.png",
+		"image": ""
+	},
+	{
 		"name": "Tapsigner",
 		"name_en": "",
 		"desc": "",
