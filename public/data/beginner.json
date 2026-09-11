@@ -240,18 +240,6 @@
 		"image": ""
 	},
 	{
-		"name": "Breez",
-		"name_en": "",
-		"desc": "闪电钱包",
-		"desc_en": "LN Wallet",
-		"url": "https://breez.technology/",
-		"url_en": "",
-		"tag": "软件钱包",
-		"tag_en": "Software",
-		"logo": "/img-btc/wallet/breez.jpg",
-		"image": ""
-	},
-	{
 		"name": "Phoenix",
 		"name_en": "",
 		"desc": "闪电钱包",
@@ -321,18 +309,6 @@
 		"tag": "硬件签名器",
 		"tag_en": "Hardware",
 		"logo": "/img-btc/wallet/ledger.jpg",
-		"image": ""
-	},
-	{
-		"name": "ColdCard",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://coldcardwallet.com/",
-		"url_en": "",
-		"tag": "硬件签名器",
-		"tag_en": "Hardware",
-		"logo": "/img-btc/wallet/ColdCard.jpg",
 		"image": ""
 	},
 	{

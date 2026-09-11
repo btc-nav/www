@@ -96,18 +96,6 @@
 		"image": "/img-btc/lightning/Lightning%20Network.jpg"
 	},
 	{
-		"name": "Breez",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://breez.technology/",
-		"url_en": "",
-		"tag": "闪电钱包",
-		"tag_en": "LN Wallet",
-		"logo": "/img-btc/wallet/breez.jpg",
-		"image": ""
-	},
-	{
 		"name": "Phoenix",
 		"name_en": "",
 		"desc": "",
@@ -417,18 +405,6 @@
 		"tag": "流动性服务提供商",
 		"tag_en": "LSP",
 		"logo": "/img-btc/LSP/blocktank.png",
-		"image": ""
-	},
-	{
-		"name": "Breez",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://breez.technology/",
-		"url_en": "",
-		"tag": "流动性服务提供商",
-		"tag_en": "LSP",
-		"logo": "/img-btc/LSP/breez.png",
 		"image": ""
 	},
 	{

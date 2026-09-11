@@ -432,18 +432,6 @@
 		"image": ""
 	},
 	{
-		"name": "ColdCard",
-		"name_en": "",
-		"desc": "",
-		"desc_en": "",
-		"url": "https://coldcardwallet.com/",
-		"url_en": "",
-		"tag": "硬件签名器",
-		"tag_en": "Hardware Signer",
-		"logo": "/img-btc/wallet/ColdCard.jpg",
-		"image": ""
-	},
-	{
 		"name": "Keystone",
 		"name_en": "",
 		"desc": "",
